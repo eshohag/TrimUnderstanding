@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TrimUnderstanding
 {
@@ -10,6 +6,11 @@ namespace TrimUnderstanding
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Enter Your Text Here...");
+            string checkText = Console.ReadLine();
+            Console.WriteLine("Without Trim methods-" + checkText.Length);
+            Console.WriteLine("With Trim methods-" + checkText.Trim().Length);
+            Console.ReadKey();
         }
     }
 }
